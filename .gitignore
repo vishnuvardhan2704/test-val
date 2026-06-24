@@ -1,0 +1,51 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+
+# ── Virtual environments ───────────────────────────────
+.venv/
+backend/.venv/
+venv/
+
+# ── Environment / secrets ─────────────────────────────
+backend/.env
+.env
+
+# ── Testing / linting ────────────────────────────────
+.pytest_cache/
+backend/.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# ── Frontend ──────────────────────────────────────────
+frontend/node_modules/
+# NOTE: frontend/dist/ is NOT ignored — we push the built assets
+# since Node.js is not available on the deployment machine
+
+# ── Editor / IDE ──────────────────────────────────────
+.vscode/
+.idea/
+*.sw?
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ── OS ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── AI assistant configs ──────────────────────────────
+.claude/
+
+# ── Misc ──────────────────────────────────────────────
+system-ca-bundle.pem
+_verify/
+backend/server.log
+*.log
