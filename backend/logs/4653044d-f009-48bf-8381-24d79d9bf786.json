@@ -1,0 +1,33 @@
+{
+  "session_id": "4653044d-f009-48bf-8381-24d79d9bf786",
+  "history": [
+    {
+      "role": "assistant",
+      "content": "Hello, my name is Rohan, and I'm a valuation assistant. I'm excited to learn more about your company to help build a profile for valuation purposes. Could you please tell me the name of your company and what sector it operates in? If you have a website, feel free to share it with me as well, it might be helpful for our conversation."
+    }
+  ],
+  "profile": {
+    "company_name": null,
+    "sector": null,
+    "nse_sector_tag": null,
+    "website_url": null,
+    "industry": null,
+    "sub_industry": null,
+    "customer_type": null,
+    "competitors": null,
+    "keywords": null,
+    "geography": null,
+    "city": null,
+    "years_operating": null,
+    "business_model": null,
+    "revenue_cr": null,
+    "ebitda_cr": null,
+    "debt_cr": null,
+    "gstin": null,
+    "revenue_growth_pct": null,
+    "customer_concentration_pct": null
+  },
+  "stage": "interview",
+  "report": null,
+  "website_context": null
+}
